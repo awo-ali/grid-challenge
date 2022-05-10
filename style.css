@@ -2,6 +2,7 @@
     height: 0;
     width: 0;
     border: 2px solid black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
 
@@ -10,18 +11,35 @@
 .grid-container{
 display: flex;
 height:auto;
-grid-template-columns:auto;
+grid-template-columns:;
 grid-template-rows: ;
 grid-area: ;
 
 }
 
-.grid-items1{
-    display:flex;
-    height: 
-    width:auto
+.nav{
+    color: ;
+    background-color: ;
+    grid-area: nav ;
+}
 
 
+.aside{
+    color: ;
+    background-color: ;
+    grid-area: aside ;
+}
 
 
+.main{
+    color: ;
+    background-color: ;
+    grid-area: main ;
+}
+
+
+header{
+    color: ;
+    background-color: ;
+    grid-area: main ;
 }
