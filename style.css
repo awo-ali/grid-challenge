@@ -1,0 +1,27 @@
+* {
+    height: 0;
+    width: 0;
+    border: 2px solid black;
+
+}
+
+
+
+.grid-container{
+display: flex;
+height:auto;
+grid-template-columns:auto;
+grid-template-rows: ;
+grid-area: ;
+
+}
+
+.grid-items1{
+    display:flex;
+    height: 
+    width:auto
+
+
+
+
+}
