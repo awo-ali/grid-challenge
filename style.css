@@ -2,6 +2,8 @@
     height: 0;
     width: 0;
     border: 2px solid black;
+    box-sizing: border-box;
+    background-color: pink;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
@@ -11,35 +13,42 @@
 .grid-container{
 display: flex;
 height:auto;
-grid-template-columns:;
-grid-template-rows: ;
-grid-area: ;
+grid-template-columns: 1fr 1fr;
+grid-template-rows:
+grid-area: 
+gap: 1em;
 
 }
 
 .nav{
-    color: ;
-    background-color: ;
+    color: white;
+    background-color:peachpuff ;
     grid-area: nav ;
 }
 
 
 .aside{
-    color: ;
-    background-color: ;
+    color: white;
+    background-color: orange;
     grid-area: aside ;
 }
 
 
 .main{
-    color: ;
-    background-color: ;
+    color: white;
+    background-color:lightgray ;
     grid-area: main ;
 }
 
 
 header{
-    color: ;
-    background-color: ;
-    grid-area: main ;
+    color:white ;
+    background-color: black;
+    grid-area: header;
+}
+
+footer{
+    color:white ;
+    background-color: black;
+    grid-area: footer;
 }
